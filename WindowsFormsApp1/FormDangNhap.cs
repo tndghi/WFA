@@ -17,8 +17,8 @@ namespace WindowsFormsApp1
         {
             if (txtUsername.Text == ADMIN_USER && txtPassword.Text == ADMIN_PASS)
             {
-                new panelMain().Show();
-                this.Hide();
+                new panelMain().ShowDialog();
+                this.Close();
             }
             else
             {

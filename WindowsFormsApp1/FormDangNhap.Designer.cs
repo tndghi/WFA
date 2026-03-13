@@ -29,7 +29,7 @@
             this.txtUsername.Location = new System.Drawing.Point(352, 174);
             this.txtUsername.Name = "txtUsername";
             this.txtUsername.Size = new System.Drawing.Size(156, 22);
-            this.txtUsername.TabIndex = 9;
+            this.txtUsername.TabIndex = 1;
             // 
             // txtPassword
             // 
@@ -37,7 +37,7 @@
             this.txtPassword.Name = "txtPassword";
             this.txtPassword.PasswordChar = '*';
             this.txtPassword.Size = new System.Drawing.Size(156, 22);
-            this.txtPassword.TabIndex = 10;
+            this.txtPassword.TabIndex = 2;
             this.txtPassword.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtPassword_KeyPress);
             // 
             // btnDangNhap
