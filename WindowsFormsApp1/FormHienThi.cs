@@ -286,12 +286,17 @@ namespace WindowsFormsApp1
 
         private void button1_Click(object sender, EventArgs e)
         {
-
+            new FormLopHoc().Show();
         }
 
         private void dgvSinhVien_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
 
+        }
+
+        private void btnQLLop_Click(object sender, EventArgs e)
+        {
+            new FormLopHoc().Show();
         }
     }
 }

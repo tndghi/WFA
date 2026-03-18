@@ -26,11 +26,21 @@ namespace WindowsFormsApp1.Properties {
         [global::System.Configuration.ApplicationScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.SpecialSettingAttribute(global::System.Configuration.SpecialSetting.ConnectionString)]
-        [global::System.Configuration.DefaultSettingValueAttribute("Data Source=LAPTOP-IEAGHS83\\SQLEXPRESS;Initial Catalog=QuanLySinhVien;Integrated " +
-            "Security=True;TrustServerCertificate=True")]
+        [global::System.Configuration.DefaultSettingValueAttribute("Data Source=.;Initial Catalog=QuanLySinhVien;Integrated Security=True")]
         public string QuanLySinhVienConnectionString {
             get {
                 return ((string)(this["QuanLySinhVienConnectionString"]));
+            }
+        }
+        
+        [global::System.Configuration.ApplicationScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.SpecialSettingAttribute(global::System.Configuration.SpecialSetting.ConnectionString)]
+        [global::System.Configuration.DefaultSettingValueAttribute("Data Source=M531\\SQLEXPRESS;Initial Catalog=QuanLySinhVien;Integrated Security=Tr" +
+            "ue;Encrypt=True;TrustServerCertificate=True")]
+        public string QuanLySinhVienConnectionString1 {
+            get {
+                return ((string)(this["QuanLySinhVienConnectionString1"]));
             }
         }
     }
